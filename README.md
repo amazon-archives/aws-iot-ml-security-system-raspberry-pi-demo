@@ -84,8 +84,6 @@ Open raspi-config to start adjusting some local features
 
 5 > Interfacing Options > Enable Camera and Enable SSH
 
-Optional > 7 > Advanced Options > Expand FileSystem
-
 Finish > Should prompt you to reboot
 ```
 
@@ -108,9 +106,9 @@ Install the requirements.txt
 Install GrovePi Software
 
 ```
-cd ~
-curl -kL dexterindustries.com/update_grovepi | bash
-sudo reboot
+`cd ~`
+`curl -kL dexterindustries.com/update_grovepi | bash`
+`sudo reboot`
 ```
 
 Please be sure that the firmware has been updated on the GrovePi [_here_](https://dexterind.github.io/GrovePi/fw/)
