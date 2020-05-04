@@ -1,0 +1,15 @@
+s3:
+    access_key_id: 'MY_ACCESS_KEY_ID'
+    secret_access_key: 'MY_SECRET_ACCESS_KEY'
+    bucket_name: 'MY_BUCKET_NAME'
+
+image_settings:
+    horizontal_res: 640
+    vertical_res: 480
+    file_name: 'test'
+    file_extension: '.jpg'
+    folder_name: 'images'
+    awb_mode: 'auto'
+    photo_interval: 60
+
+debug: true
